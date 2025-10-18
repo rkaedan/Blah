@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net --allow-env kvs_scholars.ts"
+  },
+  "imports": {
+    "std/": "https://deno.land/std@0.218.2/"
+  },
+  "compilerOptions": {
+    "lib": ["esnext", "dom", "dom.iterable", "deno.ns"],
+    "strict": true
+  }
+}
